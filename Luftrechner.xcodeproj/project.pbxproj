@@ -395,7 +395,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Luftrechner/Luftrechner-Prefix.pch";
 				INFOPLIST_FILE = "Luftrechner/Luftrechner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +410,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Luftrechner/Luftrechner-Prefix.pch";
 				INFOPLIST_FILE = "Luftrechner/Luftrechner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +478,7 @@
 				11C604CA189C0B2F0024070B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C604CB189C0B2F0024070B /* Build configuration list for PBXNativeTarget "LuftrechnerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +487,7 @@
 				11C604CD189C0B2F0024070B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
